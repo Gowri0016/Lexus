@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Lexus\ UK.jpg)
+}
+.hat i{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.hat i:hover{
+    color: white;
+    background-color:black;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.gexus {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Sofadi One", system-ui;
+    color:white;
+    position: absolute;
+    top: 75%;
+    left: 19.5%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    animation: animate 5s ease-in-out 1 forwards;
+    animation-name: fadein;
+    animation-duration: 5s;
+
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
